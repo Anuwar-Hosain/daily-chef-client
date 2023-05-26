@@ -1,0 +1,23 @@
+.chefs-main {
+  margin: 56px auto;
+}
+
+.chefs-title {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 56px;
+}
+.title-che {
+  color: #2980b9;
+}
+.chefs-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+@media only screen and (max-width: 600px) {
+  .chefs-card {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+}
